@@ -36,6 +36,8 @@
 
 `permite a criação de pipelines que podem ser desencadeados em resposta a eventos de várias fontes, incluindo Azure Blob Storage, Azure Event Hubs e Azure IoT Hub, permitindo a automação de fluxos de trabalho de dados complexos.`
 
+`Azure Data Factory é um serviço de integração de dados e orquestração de pipelines ETL, permitindo a movimentação, transformação e integração de dados de diversas fontes.`
+
 ### Azure Blob Storage
 
 `É ideal para armazenar grandes volumes de dados não estruturados, como documentos, imagens, vídeos e backups.`
@@ -60,6 +62,8 @@
 
 `É um serviço gerenciado que oferece suporte para vários frameworks de big data, incluindo Apache Hadoop, Spark, HBase e Kafka, permitindo a análise e processamento de grandes volumes de dados.`
 
+`é um serviço de análise de big data que permite a criação de clusters Apache Spark, onde você pode usar Scala para pré-processar grandes volumes de dados.`
+
 ### Azure SQL Database
 
 `é um serviço de banco de dados relacional totalmente gerenciado e compatível com SQL Server, oferecendo alta disponibilidade, escalabilidade e segurança.`
@@ -67,9 +71,13 @@
 <strong style="color:red">OBS: A finalidade principal do Azure SQL Database:
 É um serviço de banco de dados relacional gerenciado pela Microsoft, projetado para simplificar a configuração, manutenção e administração de bancos de dados SQL.</strong>
 
+<strong style="color:red">OBS1: é um serviço de banco de dados relacional que suporta transações ACID e garante a consistência imediata dos dados, ideal para gerenciar inventário e pedidos..</strong>
+
 ### Azure Synapse Analytics
 
 `é uma solução de análise unificada que integra data warehousing e big data analytics, permitindo realizar análises complexas e em tempo real de grandes volumes de dados financeiros.`
+
+<strong style="color:red">OBS: Azure Synapse Analytics permite combinar dados estruturados e não estruturados para análise, oferecendo uma plataforma integrada para data warehousing e análise de big data.</strong>
 
 ### "Workspace" no contexto do Azure Synapse Analytics
 
@@ -77,7 +85,7 @@
 
 ### Azure Stream Analytics
 
-`é um serviço de análise em tempo real que permite a ingestão, processamento e análise de dados de streaming de várias fontes, como sensores IoT, proporcionando insights quase instantâneos.`
+`é um serviço de análise em tempo real que permite a ingestão, processamento e análise de dados de streaming de várias fontes, como sensores IoT, logs de aplicativos, proporcionando insights quase instantâneos.`
 
 `é uma solução de plataforma como serviço (PaaS) que permite definir trabalhos de streaming que ingerem dados de uma fonte de streaming`
 
@@ -90,6 +98,8 @@
 ### OneLake no Microsoft Fabric
 
 `fornece um ambiente integrado onde locais de armazenamento de diferentes regiões e nuvens são combinados em um único datalake lógico, sem a necessidade de mover ou duplicar os dados. Isso facilita a colaboração em projetos de dados.`
+
+`Para dados tabulares, os mecanismos analíticos no Microsoft Fabric gravam os dados no formato delta ao gravá-los no OneLake. Esse formato delta pode ser lido por qualquer mecanismo no Fabric, facilitando o tratamento dos arquivos delta como tabelas.`
 
 ### Principal vantagem de usar o Azure Data Lake Storage em comparação com o Azure Blob Storage
 
@@ -129,6 +139,8 @@
 
 `Azure Cosmos DB suporta a API de Gremlin, que permite a criação e análise de dados gráficos, ideal para armazenar e consultar grafos.`
 
+`O Azure Cosmos DB é ideal para sistemas de IoT e telemática, pois pode ingerir e armazenar grandes quantidades de dados rapidamente, especialmente durante picos de atividade frequentes.`
+
 ### As propriedades ACID
 
 `são um conjunto de princípios que garantem a confiabilidade das transações em sistemas de banco de dados.`
@@ -155,6 +167,10 @@
 
 `permite processar novos dados de transações financeiras continuamente em tempo real, essencial para detectar fraudes imediatamente à medida que elas ocorrem.`
 
+### Streaming Estruturado do Spark
+
+`é uma biblioteca de código aberto que permite desenvolver soluções de streaming complexas em serviços baseados no Apache Spark`
+
 ### Zonas de Disponibilidade no contexto do Azure SQL Database
 
 `são data centers fisicamente separados dentro de uma região do Azure que fornecem alta disponibilidade, proteção contra falhas de hardware e desastres naturais.`
@@ -179,6 +195,8 @@
 
 `é usada para conceder permissão ao usuário "fulano" para selecionar (consultar) dados da tabelas Ex: "Clientes".`
 
+<strong style="color:red">OBS: A instrução GRANT é usada para conceder permissões a usuários ou roles em um banco de dados. Isso faz parte da DCL (Data Control Language), que é responsável por controlar o acesso aos dados no banco de dados.</strong>
+
 ### Melhor descreve um esquema em estrela em um data warehouse
 
 `Um esquema em estrela é um tipo de modelo de banco de dados usado em data warehouses, onde uma tabela de fatos central está ligada a várias tabelas de dimensões, facilitando a consulta e análise de dados.`
@@ -198,3 +216,159 @@
 ### Principal responsabilidade de um Administrador de Bancos de Dados (DBA)
 
 `é responsável por garantir que os bancos de dados estejam sempre disponíveis, com bom desempenho e seguros, além de gerenciar backups, recuperação e otimização de desempenho.`
+
+### Stored procedures no SQL
+
+`são blocos de código SQL armazenados que podem conter lógica de controle, como loops e condicionais, e podem ser reutilizadas em várias aplicações, proporcionando consistência e eficiência.`
+
+`Elas permitem encapsular operações complexas de banco de dados em um único procedimento que pode ser chamado repetidamente, reduzindo a redundância de código e melhorando a manutenção e a segurança do banco de dados.`
+
+### Clusters do Azure Stream Analytics
+
+`Se os requisitos do seu processo de fluxo forem complexos ou exigirem muitos recursos, você pode criar um cluster do Stream Analytics, que oferece escalabilidade configurável e usa o mesmo mecanismo de processamento subjacente que um trabalho do Stream Analytics, mas em um locatário dedicado.`
+
+### Azure Event Hubs
+
+`é um serviço de streaming de dados que pode ingerir e processar milhões de eventos por segundo em tempo real, ideal para cenários de ingestão massiva de dados.`
+
+### Power BI Desktop
+
+`é a ferramenta principal para a criação de relatórios e dashboards a partir de diversas fontes de dados. Ele permite importar, transformar e visualizar dados de forma interativa.`
+
+### Formato ORC (Optimized Row Columnar)
+
+`organiza os dados em colunas em vez de linhas e foi desenvolvido pela HortonWorks para otimizar operações de leitura e gravação no Apache Hive.`
+
+`Esse formato é especialmente eficiente para armazenamento e processamento de grandes volumes de dados, permitindo compressão e compactação superiores em comparação com formatos tradicionais de armazenamento em linhas. O ORC melhora o desempenho das consultas ao facilitar a leitura seletiva de colunas necessárias, reduzindo o I/O de disco e acelerando a análise de dados em ambientes de big data. Ele é amplamente utilizado em ecossistemas Hadoop e outras plataformas de processamento de dados que requerem alta performance.`
+
+### Azure Cosmos DB é responsável por distribuir dados de forma uniforme entre partições?
+
+`A chave de partição no Azure Cosmos DB é usada para distribuir os dados uniformemente entre as partições, garantindo escalabilidade e desempenho.`
+
+### Afirmações sobre o Azure Data Lake Storage Gen2
+
+`Azure Data Lake Storage Gen2 combina a escalabilidade do Azure Blob Storage com capacidades de um sistema de arquivos Hadoop, oferecendo uma solução ideal para análise de big data.`
+
+### Hub IoT do Azure
+
+`é um serviço de ingestão de dados otimizado para gerenciar dados de eventos de dispositivos da Internet das Coisas (IoT), facilitando a comunicação segura e confiável entre milhões de dispositivos IoT e uma solução de back-end.`
+
+### Blobs de Apêndice (Append Blobs)
+
+`são otimizados para operações de apêndice, tornando-os ideais para armazenar logs de atividade que são continuamente acrescentados. Cada vez que dados são adicionados, eles são anexados ao final do blob.`
+
+### Azure Databricks
+
+`é um serviço de análise de big data que oferece um ambiente Apache Spark gerenciado, onde você pode usar Scala para pré-processar grandes volumes de dados de forma eficiente e colaborativa.`
+
+`e oferece um ambiente colaborativo para criar modelos preditivos e realizar análises de dados em tempo real, sendo ideal para o setor financeiro.`
+
+### Azure Database for MariaDB
+
+`é um serviço de banco de dados relacional gerenciado que oferece compatibilidade com MariaDB, proporcionando uma solução escalável e segura para bancos de dados MariaDB.`
+
+### Pool elástico no Azure SQL Database
+
+`é ideal para cenários onde vários bancos de dados têm flutuações de carga e podem compartilhar recursos de computação e armazenamento, permitindo economia de custos e uso eficiente de recursos.`
+
+`Quando se deseja compartilhar recursos de computação e armazenamento entre vários bancos de dados com flutuações de carga`
+
+### Azure Machine Learning
+
+`é um serviço projetado para construir, treinar e implantar modelos de machine learning em larga escala, utilizando dados armazenados em diferentes serviços do Azure.`
+
+### Consistência de sessão no Azure Cosmos DB
+
+`Consistência de sessão no Azure Cosmos DB garante que dentro de uma sessão, as leituras retornam o valor mais recente escrito, proporcionando um equilíbrio entre consistência e desempenho.`
+
+### São exclusivas do T-SQL (Transact-SQL) usado pelo Microsoft SQL Server?
+
+`inclui funcionalidades como TRY...CATCH para tratamento de erros e procedimentos armazenados (stored procedures) para encapsular lógica de negócios no banco de dados. Essas são características exclusivas e amplamente utilizadas no T-SQL.`
+
+### O que é uma replicação geográfica legível no contexto do Azure Cosmos DB?
+
+`A replicação geográfica legível do Azure Cosmos DB permite que os dados sejam replicados em múltiplas regiões, onde as leituras podem ser realizadas em qualquer uma dessas regiões, proporcionando baixa latência de leitura global.`
+
+### Banco de dados de documentos
+
+`Um banco de dados de documentos é ideal para armazenar perfis de usuários com informações aninhadas, como postagens, comentários e amigos, utilizando formatos como JSON para flexibilidade e facilidade de consulta.`
+
+### Prática recomendada ao configurar o SQL Server em VMs do Azure para alta disponibilidade
+
+`Uma prática recomendada para configurar o SQL Server em VMs do Azure para alta disponibilidade é implementar Always On Availability Groups, que permitem failover automático e garantem a continuidade dos serviços em caso de falha de um dos nós.`
+
+### Opções que descreve corretamente o uso do Azure Data Lake Store Gen2 com sistemas como Hadoop no Azure HDInsight, Azure Databricks e Azure Synapse Analytics?
+
+`O Azure Data Lake Store Gen2 pode ser montado como um sistema de arquivos distribuídos por sistemas como Hadoop no Azure HDInsight, Azure Databricks e Azure Synapse Analytics. Isso permite que esses sistemas utilizem o Azure Data Lake Store Gen2 para processar grandes volumes de dados de forma eficiente.`
+
+### Características é típica de um sistema de processamento analítico online (OLAP)
+
+`são projetados para realizar a análise de grandes volumes de dados históricos e agregados, facilitando a criação de relatórios e a tomada de decisões estratégicas. Eles são otimizados para consultas complexas e processamento de grandes conjuntos de dados.`
+
+### Descreve melhor os dados semi-estruturados
+
+`Dados semi-estruturados possuem uma estrutura flexível, permitindo que os dados sejam organizados de várias formas dentro de um documento, como em JSON ou XML. Eles não seguem um esquema rígido, mas têm uma organização que pode ser interpretada e utilizada por máquinas.`
+
+### Propósito do Azure Data Box
+
+`O Azure Data Box é um dispositivo físico utilizado para transferir grandes volumes de dados para o Azure de maneira segura e eficiente, especialmente quando a transferência via rede é inviável.`
+
+### DENY DELETE
+
+`A instrução DENY DELETE é usada para negar permissão ao usuário "Maria" para excluir dados da tabela "Vendas". Isso impede que o usuário "Maria" execute operações DELETE na tabela "Vendas", garantindo que ela não possa remover dados dessa tabela.`
+
+### Azure SQL Database, Azure Synapse Analytics e Azure Databricks
+
+`são serviços que podem ser usados para manter os resultados processados em uma tabela de banco de dados, permitindo consultas e análises detalhadas dos dados.`
+
+### O que é um "Shard" em um banco de dados distribuído como o Azure Cosmos DB?
+
+`um "Shard" refere-se a um fragmento de dados que é armazenado em uma partição específica, permitindo a distribuição e escalabilidade dos dados.`
+
+### Criação de pipelines no Azure Data Factory ou Azure Synapse Analytics
+
+`Os pipelines no Azure Data Factory ou Azure Synapse Analytics são compostos por atividades que operam nos dados. Esses pipelines podem se conectar a fontes de dados externas, permitindo a integração com uma ampla variedade de serviços de dados. Essa flexibilidade é fundamental para criar soluções abrangentes de ingestão e processamento de dados.`
+
+### Data lake
+
+`é um sistema de arquivos distribuído que permite armazenar grandes volumes de dados estruturados e não estruturados, tornando-o ideal para armazenamento e análise de big data.`
+
+### Principal funcionalidade Azure Synapse Link
+
+`Azure Synapse Link permite a integração em tempo real entre bancos de dados transacionais (como o Azure Cosmos DB) e data warehouses (como Azure Synapse Analytics), facilitando análises de dados sem a necessidade de ETL.`
+
+### Características é típica de uma solução de processamento de dados transacionais?
+
+`As soluções de processamento de dados transacionais exigem baixa latência e alta consistência para garantir que as transações sejam processadas de forma rápida e precisa.`
+
+### Tarefas é tipicamente realizada por um Engenheiro de Dados
+
+`O Engenheiro de Dados é responsável por desenvolver, implementar e manter pipelines de dados que permitem a ingestão, processamento e armazenamento de grandes volumes de dados de várias fontes.`
+
+### Apache Spark
+
+`é uma tecnologia de processamento distribuído que permite processamento em memória e análise de big data em tempo real, oferecendo alta performance para cargas de trabalho de análise de dados.`
+
+### ALTER TABLE ADD
+
+`A instrução ALTER TABLE ADD é usada para modificar a estrutura de uma tabela existente, adicionando uma nova coluna especificada.`
+
+### Azure Data Explorer
+
+`Azure Data Explorer é um serviço de análise de dados que permite a ingestão e consulta de grandes volumes de dados de streaming em tempo real, ideal para cenários como monitoramento e análise de log.`
+
+### É uma característica de soluções de processamento de dados analíticos
+
+`As soluções de processamento de dados analíticos frequentemente envolvem o processamento em lote e a análise de grandes volumes de dados para extrair insights significativos.`
+
+### Criação de um compartilhamento NFS no Azure
+
+`Para criar um compartilhamento NFS (Network File System) no Azure, é necessário usar uma conta de armazenamento de camada premium. Além disso, é necessário configurar uma rede virtual para controlar o acesso ao compartilhamento NFS.`
+
+### Eventstream
+
+`No Microsoft Fabric, um eventstream pode ser usado para capturar dados de eventos em tempo real de uma fonte de streaming e persistí-los em um destino, como uma tabela em um lakehouse ou um banco de dados KQL.`
+
+### Papel de uma chave primária em uma tabela de banco de dados relacional
+
+`Uma chave primária é um campo (ou uma combinação de campos) que identifica unicamente cada registro em uma tabela. Cada tabela deve ter uma chave primária, e seus valores devem ser únicos e não nulos.`
