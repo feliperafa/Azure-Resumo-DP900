@@ -32,6 +32,8 @@
 
 `é uma ferramenta de análise de negócios que permite gerar visualizações de dados em tempo real, criando relatórios interativos e painéis que ajudam a tomar decisões informadas com base em dados atualizados.`
 
+<strong style="color:red">OBS: Depois de capturar dados em tempo real em uma tabela, você pode usar o Power BI no Microsoft Fabric para criar visualizações de dados em tempo real, facilitando a análise e a tomada de decisões baseada nesses dados.</strong>
+
 ### Azure Data Factory
 
 `permite a criação de pipelines que podem ser desencadeados em resposta a eventos de várias fontes, incluindo Azure Blob Storage, Azure Event Hubs e Azure IoT Hub, permitindo a automação de fluxos de trabalho de dados complexos.`
@@ -64,6 +66,8 @@
 
 `é um serviço de análise de big data que permite a criação de clusters Apache Spark, onde você pode usar Scala para pré-processar grandes volumes de dados.`
 
+<strong style="color:red">OBS: É ideal para processar grandes volumes de dados financeiros históricos e identificar padrões e tendências.</strong>
+
 ### Azure SQL Database
 
 `é um serviço de banco de dados relacional totalmente gerenciado e compatível com SQL Server, oferecendo alta disponibilidade, escalabilidade e segurança.`
@@ -76,6 +80,8 @@
 ### Azure Synapse Analytics
 
 `é uma solução de análise unificada que integra data warehousing e big data analytics, permitindo realizar análises complexas e em tempo real de grandes volumes de dados financeiros.`
+
+`Azure Synapse Analytics é uma plataforma de análise integrada que suporta SQL e Spark para processamento de dados em grande escala.`
 
 <strong style="color:red">OBS: Azure Synapse Analytics permite combinar dados estruturados e não estruturados para análise, oferecendo uma plataforma integrada para data warehousing e análise de big data.</strong>
 
@@ -91,9 +97,17 @@
 
 `e pode processar grandes volumes de dados de interação dos usuários em tempo real para gerar insights e responder rapidamente às tendências`
 
+`é ideal para processar e analisar dados de streaming em tempo real, permitindo a detecção de anomalias e outros insights instantaneamente.`
+
+`Azure Stream Analytics permite o processamento de fluxos de dados em tempo real utilizando uma linguagem de consulta SQL, facilitando a análise de dados em movimento.`
+
+`As consultas no Azure Stream Analytics são expressas usando a sintaxe de linguagem de consulta estruturada (SQL) e podem incorporar dados de referência estática de várias fontes de dados para fornecer valores de pesquisa que podem ser combinados com os dados de streaming ingeridos de uma entrada.`
+
 ### Sistemas OLTP (Online Transaction Processing)
 
 `são projetados para suportar um grande número de transações de leitura e gravação, como operações bancárias, reservas de passagens e compras online, oferecendo baixa latência e alta disponibilidade.`
+
+`O processamento de compras e pagamentos em um site de comércio eletrônico é um cenário típico para sistemas OLTP, que lidam com um grande número de transações rápidas e consistentes, garantindo a integridade dos dados e a resposta em tempo real.`
 
 ### OneLake no Microsoft Fabric
 
@@ -145,11 +159,13 @@
 
 `são um conjunto de princípios que garantem a confiabilidade das transações em sistemas de banco de dados.`
 
-`Atomicidade garante que todas as operações de uma transação sejam concluídas com sucesso ou, em caso de falha, nenhuma delas seja aplicada, assegurando que o banco de dados não fique em um estado inconsistente.`
+`Atomicidade -> garante que todas as operações de uma transação sejam concluídas com sucesso ou, em caso de falha, nenhuma delas seja aplicada, assegurando que o banco de dados não fique em um estado inconsistente.`
 
-`Isolamento assegura que as operações de uma transação não interfiram nas operações de outras transações simultâneas, mantendo a independência entre as transações.`
+`Consistência -> garante que uma transação leve o banco de dados de um estado válido para outro estado válido, preservando as regras e restrições definidas.`
 
-`Consistência garante que uma transação leve o banco de dados de um estado válido para outro estado válido, preservando as regras e restrições definidas. Durabilidade assegura que, uma vez que uma transação é confirmada, suas alterações sejam permanentemente registradas no banco de dados, mesmo em caso de falhas de sistema.`
+`Isolamento -> assegura que as operações de uma transação não interfiram nas operações de outras transações simultâneas, mantendo a independência entre as transações.`
+
+`Durabilidade -> assegura que, uma vez que uma transação é confirmada, seus efeitos persistem, mesmo em caso de falha do sistema.`
 
 ### Dados semi-estruturados
 
@@ -185,6 +201,8 @@
 
 ### Os Hubs de Eventos do Azure
 
+`Os Hubs de Eventos do Azure são usados para enfileirar os dados processados para processamento posterior, não para armazenar resultados processados em formato de arquivo.`
+
 `garantem que cada evento seja processado em ordem e exatamente uma vez, o que é crucial para muitos cenários de processamento de dados em tempo real.`
 
 ### uso de chaves de partição e chaves de linha no serviço de Tabelas do Azure
@@ -200,6 +218,10 @@
 ### Melhor descreve um esquema em estrela em um data warehouse
 
 `Um esquema em estrela é um tipo de modelo de banco de dados usado em data warehouses, onde uma tabela de fatos central está ligada a várias tabelas de dimensões, facilitando a consulta e análise de dados.`
+
+### Tabelas de fatos em um esquema em estrela
+
+`As tabelas de fatos em um esquema em estrela contêm métricas e medidas quantitativas, como valores de vendas, quantidade e receitas, que são analisadas em conjunto com as dimensões.`
 
 ### SQL (Structured Query Language)
 
@@ -258,6 +280,8 @@
 `são otimizados para operações de apêndice, tornando-os ideais para armazenar logs de atividade que são continuamente acrescentados. Cada vez que dados são adicionados, eles são anexados ao final do blob.`
 
 ### Azure Databricks
+
+`Azure Databricks oferece um ambiente gerenciado baseado em Apache Spark, ideal para processamento de big data e criação de modelos de machine learning.`
 
 `é um serviço de análise de big data que oferece um ambiente Apache Spark gerenciado, onde você pode usar Scala para pré-processar grandes volumes de dados de forma eficiente e colaborativa.`
 
@@ -357,6 +381,8 @@
 
 `Azure Data Explorer é um serviço de análise de dados que permite a ingestão e consulta de grandes volumes de dados de streaming em tempo real, ideal para cenários como monitoramento e análise de log.`
 
+`Azure Data Explorer é um serviço de análise e banco de dados de alto desempenho otimizado para ingestão e consulta de dados em lote ou streaming, com suporte a elementos de série temporal. É ideal para analisar grandes volumes de dados de rede em tempo real e em lote.`
+
 ### É uma característica de soluções de processamento de dados analíticos
 
 `As soluções de processamento de dados analíticos frequentemente envolvem o processamento em lote e a análise de grandes volumes de dados para extrair insights significativos.`
@@ -372,3 +398,143 @@
 ### Papel de uma chave primária em uma tabela de banco de dados relacional
 
 `Uma chave primária é um campo (ou uma combinação de campos) que identifica unicamente cada registro em uma tabela. Cada tabela deve ter uma chave primária, e seus valores devem ser únicos e não nulos.`
+
+### O Avro
+
+`é um formato de arquivo baseado em linha criado pelo Apache, que utiliza JSON para descrever a estrutura dos dados e armazena os dados como binários, facilitando a compactação e minimizando os requisitos de armazenamento e largura de banda de rede.`
+
+### Azure DevOps
+
+`Azure DevOps fornece ferramentas para integração contínua e entrega contínua (CI/CD), permitindo a automação de build, testes e implantação para projetos de dados e aplicações.`
+
+### Azure Purview
+
+`é uma solução de governança de dados e catalogação de dados que permite que as organizações descubram e gerenciem seus dados de maneira eficiente.`
+
+### Funcionalidades são exclusivas do pgSQL usado pelo PostgreSQL
+
+`pgSQL, o dialeto SQL do PostgreSQL, oferece funcionalidades exclusivas como um sistema de tipos de dados extensível, que permite aos usuários definir novos tipos de dados, e a herança de tabelas, que permite que uma tabela herde a estrutura de outra.`
+
+### Power BI Real-time Streaming
+
+`O recurso Power BI Real-time Streaming permite a integração de dados em tempo real em dashboards, permitindo que os usuários visualizem atualizações instantâneas dos dados assim que eles são recebidos.`
+
+### Always Encrypted
+
+`A feature "Always Encrypted" no Azure SQL Database garante que dados sensíveis sejam criptografados em trânsito e em repouso, fornecendo segurança adicional.`
+
+### DROP TABLE
+
+`A instrução DROP TABLE é usada para remover uma tabela existente do banco de dados.`
+
+### Benefício do uso de "Materialized Views" no Azure SQL Database
+
+`Materialized Views no Azure SQL Database permitem a pré-computação e armazenamento dos resultados de consultas complexas, melhorando significativamente o desempenho dessas consultas.`
+
+### Principal responsabilidade de um Analista de Dados
+
+`O Analista de Dados é responsável por analisar dados, criar relatórios e visualizações que ajudam as partes interessadas a tomar decisões informadas com base nos insights obtidos dos dados.`
+
+### INSERT
+
+`A instrução INSERT é usada para adicionar novos registros a uma tabela no banco de dados. Isso faz parte da DML (Data Manipulation Language), que é responsável por manipular os dados dentro das tabelas do banco de dados.`
+
+### Azure Database for MySQL
+
+`é um serviço de banco de dados relacional gerenciado que oferece compatibilidade com MySQL, proporcionando uma solução escalável e segura para bancos de dados MySQL.`
+
+### REVOKE UPDATE
+
+`A instrução REVOKE UPDATE é usada para remover a permissão de atualização de dados da tabela "Produtos" que foi concedida anteriormente ao usuário "Pedro".`
+
+### Afirmações verdadeiras sobre índices no SQL
+
+`Índices podem melhorar significativamente o desempenho das consultas de busca ao permitir acesso mais rápido aos dados e podem ser criados em uma ou mais colunas de uma tabela para otimizar o acesso aos dados.`
+
+### Apache Hadoop
+
+`Apache Hadoop é um framework de big data que utiliza o sistema de arquivos distribuído Hadoop (HDFS) para armazenamento e permite processamento em lote de grandes volumes de dados.`
+
+### Um benefício do Banco de Dados SQL do Azure em comparação com bancos de dados locais?
+
+`Um dos principais benefícios do Banco de Dados SQL do Azure é a escalabilidade automática e elástica, que permite ajustar dinamicamente os recursos de computação e armazenamento conforme necessário, garantindo desempenho otimizado e economia de custos.`
+
+### Principal característica de um data warehouse
+
+`Um data warehouse é um banco de dados relacional otimizado para análise de dados, onde os dados são transformados e armazenados em um esquema estruturado, geralmente usando tabelas de fatos e dimensões. Esse esquema é projetado para facilitar consultas analíticas complexas.`
+
+### Cenários adequado para processamento em lote
+
+`O processamento em lote é ideal para cenários onde grandes volumes de dados históricos precisam ser processados de uma só vez, como na geração de relatórios mensais de vendas. Este tipo de processamento pode ser agendado para ocorrer durante períodos de baixa demanda, aproveitando os recursos computacionais de forma eficiente.`
+
+### Principal função de um modelo de dados analíticos na análise de dados
+
+`A principal função de um modelo de dados analíticos é agregar previamente os dados para facilitar a produção de relatórios, dashboards e visualizações interativas, permitindo análises eficientes e detalhadas.`
+
+### Armazenamento de Tabelas do Azure
+
+`O Armazenamento de Tabelas do Azure é otimizado para armazenar grandes volumes de dados não relacionais, como logs de eventos e outras informações não estruturadas, oferecendo um armazenamento rápido e econômico para dados não estruturados.`
+
+### Conceito de "Shared Throughput" no Azure Cosmos DB
+
+`Shared Throughput" no Azure Cosmos DB permite que várias coleções (containers) dentro de um banco de dados compartilhem uma quantidade definida de unidades de taxa de transferência (RU/s), permitindo uma utilização mais eficiente dos recursos de taxa de transferência.`
+
+### Chave estrangeira em um banco de dados relacional
+
+`Uma chave estrangeira é um campo em uma tabela que cria um relacionamento com a chave primária de outra tabela, garantindo a integridade referencial entre os dados.`
+
+### Banco de dados de grafos
+
+`Um banco de dados de grafos é ideal para modelar e analisar redes de transporte, pois permite a representação de dados como nós (hubs) e arestas (rotas/conexões), facilitando a análise de relacionamentos e conexões complexas.`
+
+### Formato Parquet
+
+`O formato Parquet foi criado pela Cloudera e Twitter e é especializado em armazenar e processar tipos de dados aninhados com eficiência, utilizando um esquema de codificação e compactação eficiente.`
+
+### Azure Table Storage
+
+`Azure Table Storage é um serviço de armazenamento de dados NoSQL que utiliza um formato de tabela para armazenar dados não relacionais de maneira escalável.`
+
+### No Azure Synapse Analytics, o que é um "Dedicated SQL Pool"?
+
+`O "Dedicated SQL Pool" no Azure Synapse Analytics é uma solução de data warehousing que oferece recursos dedicados para consultas analíticas em grande escala.`
+
+### Azure SQL Managed Instance
+
+`Azure SQL Managed Instance é um serviço de banco de dados que oferece compatibilidade total com o SQL Server on-premises, facilitando a migração e operação em um ambiente gerenciado no Azure.`
+
+### Azure Event Grid
+
+`Azure Event Grid é um serviço que facilita a distribuição de eventos em larga escala e notificações em tempo real para milhões de usuários, ideal para cenários de mídia e comunicação.`
+
+### Camada Quente (Hot)
+
+`A camada Quente (Hot) é ideal para dados que são acessados com frequência. Ela oferece os custos mais baixos de acesso e é otimizada para armazenar dados que precisam ser acessados e modificados frequentemente.`
+
+### Qual é um cenário ideal para usar Instância Gerenciada do Azure SQL em vez de Banco de Dados SQL do Azure?
+
+`Instância Gerenciada do Azure SQL oferece compatibilidade quase total com o SQL Server, incluindo suporte para funcionalidades como SQL Agent, que não estão disponíveis no Banco de Dados SQL do Azure. Isso é ideal para migração lift-and-shift de aplicativos SQL Server on-premises para o Azure.`
+
+### Azure Data Lake Store Gen2
+
+`Azure Data Lake Store Gen 2 e Azure Blob Storage são usados para manter os resultados processados como arquivos, não exclusivamente para armazenar dados em tabelas de banco de dados.`
+
+### Afirmações verdadeira sobre o Armazenamento de Arquivos do Azure
+
+`O Armazenamento de Arquivos do Azure permite definir cotas para limitar o tamanho de cada compartilhamento de arquivo, proporcionando controle sobre o uso de espaço. Embora o tamanho máximo de um arquivo seja 1 TB e você possa compartilhar até 100 TB de dados em uma conta de armazenamento, é possível configurar limites específicos para cada compartilhamento.`
+
+### Azure Entra no contexto de serviços de dados do Azure
+
+`Azure Entra é uma plataforma abrangente de gerenciamento de identidades e acessos da Microsoft, substituindo o Azure Active Directory.`
+
+### Exemplo de dados não estruturados
+
+`Dados não estruturados não possuem um esquema fixo ou uma organização interna clara. Exemplos incluem imagens, vídeos e arquivos de áudio. Uma imagem JPEG é um exemplo clássico de dados não estruturados.`
+
+### Objetivo do Azure Data Share
+
+`Azure Data Share permite que as organizações compartilhem dados de maneira segura e eficiente com outras organizações, facilitando a colaboração e o acesso a dados`
+
+### Por que o Azure Cosmos DB é uma escolha adequada para plataformas de comércio eletrônico, como a Microsoft Store e o Xbox Live?
+
+`O Azure Cosmos DB é usado em plataformas de comércio eletrônico para armazenar dados de catálogo e fornecer eventos em pipelines de processamento de pedidos, oferecendo alta disponibilidade e baixa latência necessária para operações de varejo e marketing.`
