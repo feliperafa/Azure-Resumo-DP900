@@ -1,0 +1,369 @@
+# Capitulo 1
+
+### Fontes -> [Click aqui](https://medium.com/@hsouza.eduardo/azure-sequencia-de-posts-para-aprofundar-os-estudos-da-certifica%C3%A7%C3%A3o-azure-dp-900-fundamentals-b097173f6954)
+
+## Tipo de formato de dados ->
+
+- Estruturado -> Ex: banco relacional
+- Semi-estruturado -> Ex: banco noSql
+- Não Estruturado -> Ex: video, audio, imagem
+
+## Armazenamento de dados Transacional X dados Analítico
+
+![alt text](image.png)
+
+#### Processamento transacional on-line "OLTP"
+
+#### Processsamento analítico on-line "OLAP"
+
+## Cargas de trabalho transacional ACID
+
+- Atomicidade
+- Consistencia
+- Isolamento
+- Durabilidade
+
+## Cargas de trabalho analíticas
+
+- Resumos
+- Tendências
+- informações comerciais
+
+## Processamento de dados
+
+- Processamento em lotes
+  ![alt text](image-1.png)
+
+- processamento de streaming
+  ![alt text](image-2.png)
+
+  ## Sessão Perguntas 1
+
+![alt text](image-3.png)
+
+## Funções em dados
+
+### Administrador de banco de dados
+
+- Gerenciamento de banco de dados
+- Segurança de dados e implementos
+- Backups
+- Acesso do usuário
+- Desempenho de monitores
+
+### Engenheiro de dados
+
+- Pipelines e processos de dados
+- Armazenamento de ingestão de dados
+- Preparar dados para análise
+- Preparar dados para processamento de análise
+
+### Analista de dados
+
+- Oferece insights soobre os dados
+- Geração de relatórios visuais
+- Modelagem de dados para análise
+- Combina dados para visualização e análise
+
+![alt text](image-4.png)
+
+## Ferramentas comuns para Administrador de banco de dados
+
+_Azure data studio_
+
+_SQL server management studio_
+
+_Portal/CLI do azure_
+
+![alt text](image-5.png)
+
+## Ferramentas comuns para Engenharia de dados
+
+_Azure synapse studio_
+
+_SQL server managment studio_
+
+_Portal/CLI do azure_
+
+![alt text](image-6.png)
+
+## Ferramentas comuns para Analista de dados
+
+_Power BI desktop_
+
+_Power BI portal/serviço do power BI_
+
+_Power BI report builder_
+
+![alt text](image-7.png)
+
+## Sessão Perguntas 2
+
+![alt text](image-8.png)
+
+# Capitulo 2
+
+## Identificar casos de uso de banco de dados relacional
+
+- IOT
+- Processamento de transação on-line
+- Data warehousing
+
+## Entidade -> Uma entidade é uma representação de um item que pode ser físico.
+
+_Ex: um cliente ou um produto ou até virtual como um pedido_
+
+## Normalização -> Os dados são normalizados para reduzir um armazenamento, evitar uma duplicidade de dados ou até mesmo melhorar a qualidade dos dados.
+
+## Relações -> Em um esquema de banco de dados, as chaves primarias e estrangeiras são usadas para definir relacionamentos.
+
+## Índices ->
+
+`serve para otimizar consultas de pesquisa para recuperação mais rápida dos dados.`
+
+`reduz a quantidade de páginas de dados que precisam ser lidas para recuperar os dados em uma declração SQL`
+
+`Os dados são recuperados unindo as tabelas em uma consulta`
+
+## Exibição "View" -> Uma exibição é uma tabela virtual com base no conjunto de resultados de uma consulta.
+
+`As exibições são criadas para simplificar a consulta`
+
+`Combine dados relacionados em uma exibição de painel simples`
+
+## Sessão Perguntas 3
+
+![alt text](image-9.png)
+
+# Explorar as características dos dados "Não Relacionais"
+
+## Coleções não relacionais podem ter ->
+
+`Várias entidades na mesma coleção ou contêiner com diferentes campo`
+
+`Têm um esquema diferente, não tabular`
+
+`São frequentimente definidos por identificar cada campo com o nome que ele representa`
+
+## Identificar casos de uso do banco de dados não relacional
+
+- IOT e Telemátic -> Com frequência exigem ingerir grandes quantidades de dados em frequentes explosões de atividades os dados são semiestruturados ou estruturados, com frequêcia exigem processamento em tempo real.
+
+- Varejo e marketing -> Cenários comuns para dados distribuídos globalmente, armazenamento de documentos.
+
+- Jogos -> Estatísticas de jogo, integração com mídias sociais, quadros de líderes, aplicativos de baixa latência.
+
+- Web e movel -> Normalmente usado com análises de cliques na web, aplicativos modernos incluindo bots.
+
+## Tipos de dados não relacionais
+
+### Tipos de Formato de arquivos
+
+_JSON_
+
+![alt text](image-10.png)
+
+_AVRO_ - Criado pela Apache
+
+![alt text](image-11.png)
+
+_ORC_ - Criado pela Apache raiv, usado pelo Facebook
+
+![alt text](image-12.png)
+
+_Parquet_ - Criado pela Twitter e cloudera
+
+![alt text](image-13.png)
+
+## O que são dados não estruturados?
+
+![alt text](image-14.png)
+
+## O que é NoSQL?
+
+- Repositorios de chave-valor
+
+- Baseado em documento
+
+- Bancos de dados de família de colunas
+
+- Banco de dados de grafo
+
+## O que é um banco de dados de grafo?
+
+![alt text](image-15.png)
+
+## Sessão Perguntas 4
+
+![alt text](image-16.png)
+
+## A Jornada dos dados
+
+- Ingestão de dados
+
+- Processamento de dados
+
+- Visualização de dados
+
+![alt text](image-17.png)
+
+## Visualização de dados
+
+_Relatórios_
+
+_Business Intelligence "BI"_
+
+_Visualização de dados_
+
+## Formas de explorar a análise de dados
+
+- Descritiva -> O que aconteceu
+- Diagnostica -> Porque aconteceu
+- Preditiva -> O que vai acontecer no futuro
+- Prescritiva -> O que eu preciso fazer para acontecer ou não acontecer
+- Cognitiva -> Extrair as tedencias para trazer os melhores dados para o meu usuario
+
+![alt text](image-18.png)
+
+## Sessão Perguntas 5
+
+![alt text](image-19.png)
+
+# Capitulo 3
+
+## Serviços de dados da Azure
+
+- SQL server
+- MySQL server
+- MariaDB
+- PostgreSQL
+
+### Infraestrutura como serviço Iass
+
+_SQL server em máquinas virtuais do azure_
+
+### Plataforma como serviço Pass
+
+_Instância gerenciada de SQL do azure_
+
+_Banco de dados SQL do azure_
+
+## Banco de dados SQL da azure
+
+### Banco de dados individual
+
+`Crie e execute um servidor de banco de dados na nuvem e acesse o banco de dados por meio de servidor`
+
+### Pool Elástico
+
+`Varios bancos de dados compartilham os mesmos recursos como memória, armazenamento e capacidade de processamento`
+
+`Compatível com sistemas de carga variáveis - faça dimensionamento vertical e horizontal rapidamente sem reiniciar`
+
+![alt text](image-20.png)
+
+## Instância gerenciada de SQL do azure
+
+![alt text](image-21.png)
+
+![alt text](image-22.png)
+
+## Benefícios do banco de dados do azure para PostgreSQL, MySQL, MariaDB
+
+![alt text](image-23.png)
+
+## Sessão Perguntas 6
+
+![alt text](image-24.png)
+
+![alt text](image-25.png)
+
+## Configurar serviços de dados relacionais
+
+![alt text](image-26.png)
+
+## Conectividade dentro do azure "Política de redirecionamento"
+
+![alt text](image-27.png)
+
+## Conectividade de fora do azure "Política de proxy"
+
+![alt text](image-28.png)
+
+## Autenticação e controle de acesso
+
+- Autenticação em modo misto -> sendo elas a propria do SQL ou autenticação do AD
+
+- Modelo de autenticação direto do AD -> sendo possivel apenas utilizar usuarios do AD
+
+- Usuario do banco de dados do SQL
+
+![alt text](image-29.png)
+
+## RBAC "Controle de acesso baseado em função"
+
+![alt text](image-30.png)
+
+## Banco de dados do azure - Réplicas de leitura
+
+![alt text](image-31.png)
+
+## Tipos de instruções SQL
+
+### Linguagem de manipulação de dados
+
+#### DML -> Select, Insert, Update, Delete
+
+![alt text](image-33.png)
+
+### Linguagem de definição de dados
+
+#### DDL -> Create, Alter, Drop, Rename
+
+![alt text](image-34.png)
+
+### Liguagem de controle de dados
+
+#### DCL -> Grant, Revoke, Deny
+
+![alt text](image-32.png)
+
+## Ferramentas de consulta
+
+![alt text](image-35.png)
+
+# Capitulo 4
+
+## Fofrmas de armazenamento de blobs do azure
+
+### Blobs de blocos -> seu tamanho maximo é de 4,7TB, ideal para armazenar objetos binários grandes e discretos que mudam com pouca frequência. Cada bloco pode armazenar até 100MB de dados e pode conter até 50mil blocos.
+
+### blobs de páginas -> Pode armazenar até 8TB de dados e são organizados como uma coleção de páginas de tamanho fixo de até 512 bytes. Usado para implementar o armazenamento em disco virtual para máquinas virtuais.
+
+### Blobs de acréscimo -> Seu tamanho máximo é de mais de 195gb. É um blob de blocos usado para otimizar operações de acréscimo e cada bloco pode armazenar até 4MB de dados.
+
+![alt text](image-36.png)
+
+## Armazenamento de arquivos do azure
+
+![alt text](image-37.png)
+
+## Cosmos DB
+
+![alt text](image-38.png)
+
+### Casos de uso do azure cosmos DB
+
+_Web e varejo_
+
+_Jogos_
+
+_Cenários de Iot_
+
+![alt text](image-39.png)
+
+## Sessão Perguntas 7
+
+![alt text](image-40.png)
+
+![alt text](image-41.png)
