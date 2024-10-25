@@ -367,3 +367,111 @@ _Cenários de Iot_
 ![alt text](image-40.png)
 
 ![alt text](image-41.png)
+
+# Capitulo 5
+
+## Configurar contas de armazenamento
+
+## Sessão Perguntas 8
+
+![alt text](image-42.png)
+
+## APIs do Cosmos DB
+
+_API do SQL_
+
+_API do MongoDB_
+
+_API do Cassandra_
+
+_API do Gremlin_
+
+_API de Tabela_
+
+![alt text](image-43.png)
+
+![alt text](image-44.png)
+
+![alt text](image-45.png)
+
+## Sessão Perguntas 9
+
+![alt text](image-46.png)
+
+# Capitulo 6
+
+## Componentes do data warehouse moderno
+
+### Modelo de arquitetura em 3 camadas -> sendo elas Injestão,
+
+#### Azure data factory -> ingere os dados transforma e limpa fazendo o processo de ETL deixando todo mundo no mesmo formato e armazenando em um data lake podendo ser o data lake comun ou data lake storage.
+
+#### Azure data lake ->
+
+#### sinapsy analitycs ->
+
+#### Data bricks ->
+
+#### Analise server ->
+
+#### Power BI ->
+
+![alt text](image-48.png)
+
+## Serviços do azure para o data warehouse moderno
+
+- Azure data factory -> serviço que pode se trabalhar com ingestão de dados, responsavel por fazer ETL e ELT.
+
+- Azure data lake -> Serviço de armazenamento, podendo trabalhar com data lake storage.
+
+- azure databricks -> Trabalha baseada em spark como ferramenta base de processamento.
+
+- Azure HDinsight -> É um servidoço baseado em hadoop para trabalhos em big data, para processar grandes volumes.
+
+- Azure synapse análise -> Trabalha baseada em spark e tem um banco de dados por tras em SQL bem poderoso que podemos armazenar bastante fontes de dados.
+
+![alt text](image-49.png)
+
+![alt text](image-50.png)
+
+![alt text](image-51.png)
+
+![alt text](image-52.png)
+
+![alt text](image-53.png)
+
+## Sessão Perguntas 10
+
+![alt text](image-54.png)
+
+![alt text](image-55.png)
+
+## Descrever a ingestão de dados no azure
+
+![alt text](image-56.png)
+
+_OBS: todos os tipos de ingestão podem disponibilizar dados para o databricks_
+
+![alt text](image-57.png)
+
+![alt text](image-58.png)
+
+## Sessão Perguntas 11
+
+![alt text](image-59.png)
+
+![alt text](image-60.png)
+
+## Como pode ser usado o Power BI
+
+### Power BI Desktop
+
+### Serviço do Power BI
+
+### Power BI Mobile
+
+![alt text](image-61.png)
+
+## Sessão Perguntas 12
+
+![alt text](image-62.png)
