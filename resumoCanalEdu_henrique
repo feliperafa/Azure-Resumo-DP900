@@ -6,11 +6,11 @@
 
 - Estruturado -> Ex: banco relacional
 - Semi-estruturado -> Ex: banco noSql
-- Não Estruturado -> Ex: video, audio, imagem
+- Não Estruturado -> Ex: video, audio, ./imgCnEdu/imagem
 
 ## Armazenamento de dados Transacional X dados Analítico
 
-![alt text](image.png)
+![alt text](./imgCnEdu/image.png)
 
 #### Processamento transacional on-line "OLTP"
 
@@ -32,14 +32,14 @@
 ## Processamento de dados
 
 - Processamento em lotes
-  ![alt text](image-1.png)
+  ![alt text](./imgCnEdu/image-1.png)
 
 - processamento de streaming
-  ![alt text](image-2.png)
+  ![alt text](./imgCnEdu/image-2.png)
 
   ## Sessão Perguntas 1
 
-![alt text](image-3.png)
+![alt text](./imgCnEdu/image-3.png)
 
 ## Funções em dados
 
@@ -65,7 +65,7 @@
 - Modelagem de dados para análise
 - Combina dados para visualização e análise
 
-![alt text](image-4.png)
+![alt text](./imgCnEdu/image-4.png)
 
 ## Ferramentas comuns para Administrador de banco de dados
 
@@ -75,7 +75,7 @@ _SQL server management studio_
 
 _Portal/CLI do azure_
 
-![alt text](image-5.png)
+![alt text](./imgCnEdu/image-5.png)
 
 ## Ferramentas comuns para Engenharia de dados
 
@@ -85,7 +85,7 @@ _SQL server managment studio_
 
 _Portal/CLI do azure_
 
-![alt text](image-6.png)
+![alt text](./imgCnEdu/image-6.png)
 
 ## Ferramentas comuns para Analista de dados
 
@@ -95,11 +95,11 @@ _Power BI portal/serviço do power BI_
 
 _Power BI report builder_
 
-![alt text](image-7.png)
+![alt text](./imgCnEdu/image-7.png)
 
 ## Sessão Perguntas 2
 
-![alt text](image-8.png)
+![alt text](./imgCnEdu/image-8.png)
 
 # Capitulo 2
 
@@ -133,7 +133,7 @@ _Ex: um cliente ou um produto ou até virtual como um pedido_
 
 ## Sessão Perguntas 3
 
-![alt text](image-9.png)
+![alt text](./imgCnEdu/image-9.png)
 
 # Explorar as características dos dados "Não Relacionais"
 
@@ -161,23 +161,23 @@ _Ex: um cliente ou um produto ou até virtual como um pedido_
 
 _JSON_
 
-![alt text](image-10.png)
+![alt text](./imgCnEdu/image-10.png)
 
 _AVRO_ - Criado pela Apache
 
-![alt text](image-11.png)
+![alt text](./imgCnEdu/image-11.png)
 
 _ORC_ - Criado pela Apache raiv, usado pelo Facebook
 
-![alt text](image-12.png)
+![alt text](./imgCnEdu/image-12.png)
 
 _Parquet_ - Criado pela Twitter e cloudera
 
-![alt text](image-13.png)
+![alt text](./imgCnEdu/image-13.png)
 
 ## O que são dados não estruturados?
 
-![alt text](image-14.png)
+![alt text](./imgCnEdu/image-14.png)
 
 ## O que é NoSQL?
 
@@ -191,11 +191,11 @@ _Parquet_ - Criado pela Twitter e cloudera
 
 ## O que é um banco de dados de grafo?
 
-![alt text](image-15.png)
+![alt text](./imgCnEdu/image-15.png)
 
 ## Sessão Perguntas 4
 
-![alt text](image-16.png)
+![alt text](./imgCnEdu/image-16.png)
 
 ## A Jornada dos dados
 
@@ -205,7 +205,7 @@ _Parquet_ - Criado pela Twitter e cloudera
 
 - Visualização de dados
 
-![alt text](image-17.png)
+![alt text](./imgCnEdu/image-17.png)
 
 ## Visualização de dados
 
@@ -223,11 +223,11 @@ _Visualização de dados_
 - Prescritiva -> O que eu preciso fazer para acontecer ou não acontecer
 - Cognitiva -> Extrair as tedencias para trazer os melhores dados para o meu usuario
 
-![alt text](image-18.png)
+![alt text](./imgCnEdu/image-18.png)
 
 ## Sessão Perguntas 5
 
-![alt text](image-19.png)
+![alt text](./imgCnEdu/image-19.png)
 
 # Capitulo 3
 
@@ -260,35 +260,35 @@ _Banco de dados SQL do azure_
 
 `Compatível com sistemas de carga variáveis - faça dimensionamento vertical e horizontal rapidamente sem reiniciar`
 
-![alt text](image-20.png)
+![alt text](./imgCnEdu/image-20.png)
 
 ## Instância gerenciada de SQL do azure
 
-![alt text](image-21.png)
+![alt text](./imgCnEdu/image-21.png)
 
-![alt text](image-22.png)
+![alt text](./imgCnEdu/image-22.png)
 
 ## Benefícios do banco de dados do azure para PostgreSQL, MySQL, MariaDB
 
-![alt text](image-23.png)
+![alt text](./imgCnEdu/image-23.png)
 
 ## Sessão Perguntas 6
 
-![alt text](image-24.png)
+![alt text](./imgCnEdu/image-24.png)
 
-![alt text](image-25.png)
+![alt text](./imgCnEdu/image-25.png)
 
 ## Configurar serviços de dados relacionais
 
-![alt text](image-26.png)
+![alt text](./imgCnEdu/image-26.png)
 
 ## Conectividade dentro do azure "Política de redirecionamento"
 
-![alt text](image-27.png)
+![alt text](./imgCnEdu/image-27.png)
 
 ## Conectividade de fora do azure "Política de proxy"
 
-![alt text](image-28.png)
+![alt text](./imgCnEdu/image-28.png)
 
 ## Autenticação e controle de acesso
 
@@ -298,15 +298,15 @@ _Banco de dados SQL do azure_
 
 - Usuario do banco de dados do SQL
 
-![alt text](image-29.png)
+![alt text](./imgCnEdu/image-29.png)
 
 ## RBAC "Controle de acesso baseado em função"
 
-![alt text](image-30.png)
+![alt text](./imgCnEdu/image-30.png)
 
 ## Banco de dados do azure - Réplicas de leitura
 
-![alt text](image-31.png)
+![alt text](./imgCnEdu/image-31.png)
 
 ## Tipos de instruções SQL
 
@@ -314,23 +314,23 @@ _Banco de dados SQL do azure_
 
 #### DML -> Select, Insert, Update, Delete
 
-![alt text](image-33.png)
+![alt text](./imgCnEdu/image-33.png)
 
 ### Linguagem de definição de dados
 
 #### DDL -> Create, Alter, Drop, Rename
 
-![alt text](image-34.png)
+![alt text](./imgCnEdu/image-34.png)
 
 ### Liguagem de controle de dados
 
 #### DCL -> Grant, Revoke, Deny
 
-![alt text](image-32.png)
+![alt text](./imgCnEdu/image-32.png)
 
 ## Ferramentas de consulta
 
-![alt text](image-35.png)
+![alt text](./imgCnEdu/image-35.png)
 
 # Capitulo 4
 
@@ -342,15 +342,15 @@ _Banco de dados SQL do azure_
 
 ### Blobs de acréscimo -> Seu tamanho máximo é de mais de 195gb. É um blob de blocos usado para otimizar operações de acréscimo e cada bloco pode armazenar até 4MB de dados.
 
-![alt text](image-36.png)
+![alt text](./imgCnEdu/image-36.png)
 
 ## Armazenamento de arquivos do azure
 
-![alt text](image-37.png)
+![alt text](./imgCnEdu/image-37.png)
 
 ## Cosmos DB
 
-![alt text](image-38.png)
+![alt text](./imgCnEdu/image-38.png)
 
 ### Casos de uso do azure cosmos DB
 
@@ -360,13 +360,13 @@ _Jogos_
 
 _Cenários de Iot_
 
-![alt text](image-39.png)
+![alt text](./imgCnEdu/image-39.png)
 
 ## Sessão Perguntas 7
 
-![alt text](image-40.png)
+![alt text](./imgCnEdu/image-40.png)
 
-![alt text](image-41.png)
+![alt text](./imgCnEdu/image-41.png)
 
 # Capitulo 5
 
@@ -374,7 +374,7 @@ _Cenários de Iot_
 
 ## Sessão Perguntas 8
 
-![alt text](image-42.png)
+![alt text](./imgCnEdu/image-42.png)
 
 ## APIs do Cosmos DB
 
@@ -388,15 +388,15 @@ _API do Gremlin_
 
 _API de Tabela_
 
-![alt text](image-43.png)
+![alt text](./imgCnEdu/image-43.png)
 
-![alt text](image-44.png)
+![alt text](./imgCnEdu/image-44.png)
 
-![alt text](image-45.png)
+![alt text](./imgCnEdu/image-45.png)
 
 ## Sessão Perguntas 9
 
-![alt text](image-46.png)
+![alt text](./imgCnEdu/image-46.png)
 
 # Capitulo 6
 
@@ -416,7 +416,7 @@ _API de Tabela_
 
 #### Power BI ->
 
-![alt text](image-48.png)
+![alt text](./imgCnEdu/image-48.png)
 
 ## Serviços do azure para o data warehouse moderno
 
@@ -430,37 +430,37 @@ _API de Tabela_
 
 - Azure synapse análise -> Trabalha baseada em spark e tem um banco de dados por tras em SQL bem poderoso que podemos armazenar bastante fontes de dados.
 
-![alt text](image-49.png)
+![alt text](./imgCnEdu/image-49.png)
 
-![alt text](image-50.png)
+![alt text](./imgCnEdu/image-50.png)
 
-![alt text](image-51.png)
+![alt text](./imgCnEdu/image-51.png)
 
-![alt text](image-52.png)
+![alt text](./imgCnEdu/image-52.png)
 
-![alt text](image-53.png)
+![alt text](./imgCnEdu/image-53.png)
 
 ## Sessão Perguntas 10
 
-![alt text](image-54.png)
+![alt text](./imgCnEdu/image-54.png)
 
-![alt text](image-55.png)
+![alt text](./imgCnEdu/image-55.png)
 
 ## Descrever a ingestão de dados no azure
 
-![alt text](image-56.png)
+![alt text](./imgCnEdu/image-56.png)
 
 _OBS: todos os tipos de ingestão podem disponibilizar dados para o databricks_
 
-![alt text](image-57.png)
+![alt text](./imgCnEdu/image-57.png)
 
-![alt text](image-58.png)
+![alt text](./imgCnEdu/image-58.png)
 
 ## Sessão Perguntas 11
 
-![alt text](image-59.png)
+![alt text](./imgCnEdu/image-59.png)
 
-![alt text](image-60.png)
+![alt text](./imgCnEdu/image-60.png)
 
 ## Como pode ser usado o Power BI
 
@@ -470,8 +470,32 @@ _OBS: todos os tipos de ingestão podem disponibilizar dados para o databricks_
 
 ### Power BI Mobile
 
-![alt text](image-61.png)
+![alt text](./imgCnEdu/image-61.png)
 
 ## Sessão Perguntas 12
 
-![alt text](image-62.png)
+![alt text](./imgCnEdu/image-62.png)
+
+# Sessão Especial de Perguntas
+
+![alt text](./imgCnEdu/image-63.png)
+
+![alt text](./imgCnEdu/image-64.png)
+
+![alt text](./imgCnEdu/image-65.png)
+
+![alt text](./imgCnEdu/image-66.png)
+
+![alt text](./imgCnEdu/image-67.png)
+
+![alt text](./imgCnEdu/image-68.png)
+
+![alt text](./imgCnEdu/image-69.png)
+
+![alt text](./imgCnEdu/image-70.png)
+
+![alt text](./imgCnEdu/image-71.png)
+
+![alt text](./imgCnEdu/image-72.png)
+
+![alt text](./imgCnEdu/image-73.png)
