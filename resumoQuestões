@@ -487,6 +487,8 @@
 
 `Um banco de dados de grafos é ideal para modelar e analisar redes de transporte, pois permite a representação de dados como nós (hubs) e arestas (rotas/conexões), facilitando a análise de relacionamentos e conexões complexas.`
 
+`É um banco de dados que contém nós e bordas`
+
 ### Formato Parquet
 
 `O formato Parquet foi criado pela Cloudera e Twitter e é especializado em armazenar e processar tipos de dados aninhados com eficiência, utilizando um esquema de codificação e compactação eficiente.`
@@ -538,3 +540,180 @@
 ### Por que o Azure Cosmos DB é uma escolha adequada para plataformas de comércio eletrônico, como a Microsoft Store e o Xbox Live?
 
 `O Azure Cosmos DB é usado em plataformas de comércio eletrônico para armazenar dados de catálogo e fornecer eventos em pipelines de processamento de pedidos, oferecendo alta disponibilidade e baixa latência necessária para operações de varejo e marketing.`
+
+### Delta lake
+
+`É uma camada de armazenamento de código aberto que adiciona suporte ao Data lake Storage para consistência transacional`
+
+### Power BI Desktop
+
+`É usado para definir modelos analiticos `
+
+### Gráfico de Pizza
+
+`Comparam visualmente diferentes valores como uma propoção de um total`
+
+### Gráfico de linhas
+
+`São usados para examinar tendências geralmente ao longo do tempo.`
+
+### Gráfico de Barras
+
+`São usados para comparar valores diferentes para categorias discretas`
+
+### Gráfico de dispersão
+
+`São usados para determinar uma relação ou correlação entre dois valores númericos`
+
+### Gráfico de cartão(CARD)
+
+`é usado para rastrear um único número ou valor`
+
+### Gráfico de Matriz
+
+``
+`Uma matriz facilita a exibição de dados em várias dimensões.`
+
+### Azure Data Lake Gen2
+
+`Implementa um modelo de controle de acesso que oferece suporte ao controle de acesso baseado em função da azure (Azure RBAC) e listas de controle de acesso (ACLs) do tipo POSIX`
+
+### Banco de dados SQL do Azure
+
+`Quando criamos um novo servidor de banco de dados SQL do azure  por padrão esse banco de dados é protegito por um firewall no nível do servidor`
+
+### SQL CMD
+
+`O utilitario SQL CMD permite inserir instruções Transac-SQL, procedimento do sistema e arquivos de script no prompt de comando`
+
+### Azure private link
+
+`Permite que você acesse os serviços de PAAS do azure (por exemplo, armazenamento do azure e banco de dados SQL) e os serviços hospedados pelo cliente`
+
+### Índice clusterizado
+
+`Classifica fisicamente os dados em uma tabeela com base nos valores em uma coluna especificada.`
+
+### Os blobs de páginas
+
+`são otimizados para acesso aleatório e usados para VHDs. Os blobs de acréscimo não podem ser atualizados. Os blobs de blocos não são usados para VHDs. Os Arquivos do Azure não são usados como VHDs.`
+
+### Blob de acréscimo
+
+`Um blob de acréscimo permite que você adicione frequentemente novos dados a um arquivo, mas não permite a modificação ou exclusão de dados existentes.`
+
+### API do Cassandra
+
+`A API do Cassandra é usada para dados tabulares em um armazenamento de família de colunas.`
+
+`A API do Cassandra é consultada usando SQL`
+
+### API do Gremlin
+
+`é usada para bancos de dados de grafos.`
+
+`A API do Gremlin é consultada usando o Graph`
+
+### API do MongoDB
+
+`armazena dados no formato BSON (Binary JSON).`
+
+`A API do MongoDB é consultada usando a Linguagem de Consulta do MongoDB (MQL)`
+
+### A tabela
+
+` é usada para recuperar pares de chave-valor.`
+
+`A API de Tabela é consultada usando consultas OData e LINQ.`
+
+### O SQL é a API nativa no Cosmos DB
+
+`Ele gerencia dados no formato JSON.`
+
+### O Azure Cosmos DB
+
+`permite agregar dados em relatórios analíticos sem desenvolvimento adicional`
+
+### SELECT - INTO
+
+`faz uma inserção em uma tabela.`
+
+### SELECT – OVER
+
+`determina o particionamento e a ordenação do conjunto de linhas antes que uma função de janela seja aplicada.`
+
+### INSERT – VALUES
+
+`insere valores em uma única linha.`
+
+### SELECT – HAVING
+
+`filtra dados.`
+
+### Um procedimento armazenado
+
+`pode encapsular qualquer tipo de lógica de negócios que possa ser reutilizado no aplicativo. Um procedimento armazenado pode modificar dados existentes, bem como adicionar novas entradas a tabelas. Um procedimento armazenado pode ser executado em um aplicativo, bem como no servidor.`
+
+### O SQL Server em Máquinas Virtuais do Azure que executam o Windows
+
+`é a única opção que dá suporte a todos os recursos do SQL Server na nuvem. O Banco de Dados SQL do Azure, a Instância Gerenciada de SQL e o SQL Server em Máquinas Virtuais do Azure que executam o Linux não dão suporte a todos os recursos do SQL Server.`
+
+### O Banco de Dados SQL do Azure
+
+`permite provisionar um banco de dados individual em um servidor dedicado e tem escalabilidade sob demanda. A Instância Gerenciada de SQL pode dar suporte a vários bancos de dados e o SQL Server em Máquinas Virtuais do Azure está instalado em uma máquina virtual, onde cada instância pode dar suporte a vários bancos de dados.`
+
+### O MariaDB
+
+`O MariaDB tem suporte interno para dados temporais. Ele permite que os aplicativos consultem dados conforme os dados apareceram em pontos anteriores no tempo.`
+
+### O SQL no Edge
+
+`O SQL no Edge é otimizado para cenários de IoT que devem funcionar com o fluxo de dados de série temporal. O SQL Server em Máquinas Virtuais do Azure funciona bem quando você deseja manter o controle sobre a configuração do servidor e do banco de dados. A Instância Gerenciada de SQL é ideal para migrações de nuvem em que você precisa de uma alteração mínima para aplicativos existentes. O Banco de Dados SQL do Azure funciona bem para novas soluções de nuvem.`
+
+### Banco de dados do Graph
+
+`Os bancos de dados de grafos são a melhor opção para dados hierárquicos. O Banco de Dados do SQL do Azure é a melhor opção para operações CRUD (criar, ler, atualizar e excluir) e usa uma quantidade menor de espaço de armazenamento, mas nossa solução não exige um sistema de gerenciamento de dados (DBMS) no navegador. O banco de dados do documento é melhor para dados não estruturados. O armazenamento de tabelas não é adequado para arquivos.`
+
+### Família de colunas
+
+`Os bancos de dados da família de colunas são usados para armazenar dados não estruturados e tabulares que incluem linhas e colunas. Os pools do Spark do Azure Synapse Analytics não dão suporte diretamente a bancos de dados relacionais ou de grafos.`
+
+### ORC e Parquet
+
+`ORC e Parquet são formatos de dados colunares. O Avro é baseado em linhas e o CSV é usado para dados delimitados.`
+
+### Os bancos de dados analíticos
+
+`são altamente desnormalizados para armazenar grandes quantidades de dados agregados e são otimizados para leituras. As cargas de trabalho de série temporal não armazenam grandes quantidades de dados agregados. As cargas de trabalho de grafos armazenam dados hierárquicos. As cargas de trabalho transacionais são otimizadas para operações CRUD (criar, ler, atualizar e excluir).`
+
+### Azure Synapse Analytics
+
+`O Azure Synapse Analytics é um serviço nativo do Azure criado no Spark. O Azure Data Lake Storage é usado para armazenar dados. O Azure Cosmos DB não usa uma plataforma Spark.`
+
+### Uma hierarquia
+
+`Uma hierarquia permite fazer drill up e fazer drill down em uma dimensão. Uma dimensão permite a navegação, mas a hierarquia é usada para fazer drill up e fazer drill down em uma dimensão. As tabelas de fatos têm valores. Os cubos não são criados no Microsoft PowerBI.`
+
+### O Power BI Desktop
+
+`é usado para definir modelos analíticos. O Aplicativo Telefone é usado para exibir relatórios do Power BI. O Serviço do Power BI é usado para fornecer dados. O Data Factory é usado para executar trabalhos ETL.`
+
+### O processamento de fluxo
+
+`O processamento de fluxo é rápido. Ele processa dados à medida que chegam. O processamento de fluxo executa análises simples ou simplesmente grava dados em um coletor. O processamento de fluxo manipula pequenos blocos de dados.`
+
+### As dimensões
+
+`As dimensões são usadas para agregar dados. As tabelas de fatos contêm medidas agregadas, não valores para agregar. Uma relação é usada para associar fatos a dimensões. As chaves são usadas para estabelecer relaçõefs.`
+
+### Os blobs de blocos
+
+`são usados para arquivos e a camada de armazenamento de arquivos é a opção mais barata. A camada de armazenamento esporádico não é a opção mais barata. Os blobs de acréscimo não podem ser atualizados.`
+
+### Duas características do armazenamento de Tabelas do Azure
+
+`O valor RowKey é exclusivo dentro de uma partição, não dentro de uma tabela. Os itens na mesma partição são armazenados em ordem de chave de linha. As tabelas não podem ter índices para acelerar as consultas.`
+
+### O PostgreSQL
+
+`O PostgreSQL é um banco de dados de objetos híbrido e relacional. Você pode armazenar dados em tabelas relacionais ou armazenar tipos de dados personalizados com propriedades não relacionais.`
