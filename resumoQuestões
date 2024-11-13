@@ -571,8 +571,11 @@
 
 ### Gráfico de Matriz
 
-``
 `Uma matriz facilita a exibição de dados em várias dimensões.`
+
+### Gráfico de mapa de àrvore
+
+`Divide a àrea do gráfico em retângulos que representam os diferentes níveis e tamanhos da hierarquia de dados referência`
 
 ### Azure Data Lake Gen2
 
